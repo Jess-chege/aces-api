@@ -10,6 +10,7 @@ app = Flask(__name__)
 
 # routes
 @app.route('/', methods=['POST'])
+@app.route('/', methods=['GET'])
 
 def predict():
     # get data
